@@ -68,6 +68,7 @@ header {
     background-image: url("../images/cover.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 50% 0%;
     position: relative;
     width: 1440px;
     height: 757px;
