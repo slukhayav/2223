@@ -1,4 +1,4 @@
-header {
+.header {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     margin: 92px 49px 96px 51px;
@@ -180,7 +180,7 @@ header {
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-    margin-left: 40px;  
+    margin-left: 40px;
 }
 .lots__card-list {
     display: flex;
