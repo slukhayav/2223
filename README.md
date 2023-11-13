@@ -1,1 +1,1 @@
-https://github.com/slukhayav/2223.git
+https://github.com/slukhayav/ono-tebe-nado.git
