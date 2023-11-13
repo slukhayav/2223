@@ -1,1 +1,1 @@
-https://github.com/slukhayav/2223
+https://github.com/slukhayav/2223.git
