@@ -11,7 +11,7 @@ header {
 }
 .header_logo {
     margin: auto;
-    width: 148px;
+    width: 138px;
     height: 105px;
 }
 .header_link {
@@ -186,7 +186,6 @@ header {
     display: flex;
     margin-top: 27px;
     justify-content: space-between;
-    
 }
 
 .card-link {
@@ -256,14 +255,13 @@ header {
 .logo_white {
     width: 62%;
     margin: auto;
-
 }
 .opisanie {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.about__title{
+.about__title {
     color: #000;
     font-family: Raleway;
     font-size: 40px;
