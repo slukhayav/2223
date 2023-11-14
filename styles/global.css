@@ -33,6 +33,8 @@ img {
   width: 100%;
 }
 nav,
-section {
+section,
+address {
   display: contents;
 }
+
