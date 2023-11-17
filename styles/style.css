@@ -180,7 +180,7 @@ header {
 
 .card-cover_film {
   position: relative;
-  height: 100%; 
+  height: 100%;
   background-image: url("../images/card-lot-01.jpg");
   background-position: center;
   background-size: cover;
@@ -340,6 +340,6 @@ margin-left: 25px;
 }
 
 .socStyle {
-  width: 10%; 
+  width: 10%;
   list-style-type: none;
 }
