@@ -43,7 +43,7 @@ header {
   margin-bottom: 2px;
 }
 
-.phoneMail {
+.phone_and_mail {
   list-style-type: none;
   text-underline-offset: 5px;
 }
@@ -62,8 +62,6 @@ header {
   position: relative;
   display: block;
   z-index: 0;
-  margin: auto;
-  min-height: 757px;
 }
 
 .overlay {
@@ -87,32 +85,32 @@ header {
   text-transform: uppercase;
 }
 
-.coverFirstWord {
+.cover_first_word {
   z-index: 1;
   margin: 165px 50px 0 50px;
 }
 
-.coverFirstWordo {
+.cover_first_wordo {
   margin-left: 30px;
 }
 
-.coverTwoWord {
+.cover_two_word {
   z-index: 1;
   line-height: 100%;
   margin: 300px 0 0 25px;
 }
 
-.coverTwoWorde {
+.cover_two_worde {
   margin-left: 30px;
 }
 
-.coverThreeWord {
+.cover_three_word {
   z-index: 1;
   line-height: 100%;
   margin: 420px 0 0 15px;
 }
 
-.coverThreeWordn {
+.cover_three_wordn {
   padding-right: 30px;
 }
 
@@ -130,6 +128,7 @@ header {
   word-spacing: 18px;
   margin-top: 135px;
   margin-left: 370px;
+  padding-bottom: 50px;
 }
 
 .cover__description_word {
@@ -174,37 +173,26 @@ header {
 
 .card {
   width: 430px;
-  height: 450px;
   margin-top: 27px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
 }
 
 .card-cover_film {
-  position: relative;
-  height: 100%;
   background-image: url("../images/card-lot-01.jpg");
-  background-position: center;
-  background-size: cover;
 }
 
 .card-cover_book {
-  position: relative;
-  height: 100%;
   background-image: url("../images/card-lot-02.jpg");
-  background-position: center;
-  background-size: cover;
 }
 
 .card-cover_picture {
-  position: relative;
-  height: 100%;
   background-image: url("../images/card-lot-03.jpg");
-  background-position: center;
-  background-size: cover;
 }
 
 .card-article {
-  height: 100%;
-  width: auto;
+  min-height: 450px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -269,30 +257,30 @@ header {
   margin: auto;
 }
 
-.opisanie {
- display: grid;
+.about_description {
+  display: grid;
   gap: 25px;
 }
 
 .about__title {
   color: #000;
-font-family: Raleway;
-font-size: 40px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
-margin: 100px 0px 75px 25px;
+  font-family: Raleway, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 100px 0px 75px 25px;
 }
 
 .about__text {
-color: #000;
-font-family: Raleway;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-margin-left: 25px;
+  color: #000;
+  font-family: Raleway, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 25px;
 }
 
 /*---------------секция footer----------*/
@@ -331,7 +319,7 @@ margin-left: 25px;
   list-style-type: none;
 }
 
-.socContact {
+.social_contact {
   display: flex;
   justify-content: flex-end;
   gap: 51px;
@@ -339,7 +327,7 @@ margin-left: 25px;
   margin: 3px 3px;
 }
 
-.socStyle {
+.social_style {
   width: 10%;
   list-style-type: none;
 }
